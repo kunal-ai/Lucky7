@@ -1,0 +1,186 @@
+body {
+  background-color: grey
+}
+
+
+.gameboard {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #7008b7;
+  border-style: inset;
+  border-width: 10px;
+  width:1200px;
+  height: 300px;
+  margin: auto;
+  border-radius: 25px;
+  padding-top: 40px;
+  margin-top: 40px;
+  }
+.rules {
+  font-family: 'Luckiest Guy',fantasy;
+  font-size: 30px;
+  text-align: center;
+}
+
+#next {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-family: 'Luckiest Guy', fantasy;
+  font-size: 20px;
+  background-color:#F08700;
+  position: relative;
+  margin: auto;
+  margin-left: 40%;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 10px #666;
+   vertical-align: middle;
+   cursor: pointer;
+   outline: none;
+
+}
+
+#next:hover {background-color: yellow}
+
+#next:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+   }
+
+.dice1 {
+  font-family: 'Luckiest Guy', fantasy;
+  border-style: outset;
+  font-size: 80px;
+  position: absolute;
+  color: red;
+  background-color: white;
+  width: 300px;
+  height: 320px;
+  margin: auto;
+  margin-right: 100px;
+  margin-left: 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding-left: 15px;
+  z-index: 0;
+  text-align: center;
+  box-shadow: 0 10px 5px #666;
+}
+#number1{
+  float: left;
+  position: relative;
+}
+
+#number2{
+  float: left;
+  position: relative;
+}
+
+
+#face1 {
+  font-size: 280px;
+  float:right;
+  position:sticky;
+}
+#face2 {
+  font-size: 280px;
+  float:right;
+  position:sticky;
+}
+
+
+.dicemove{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 80px;
+  border-style: inset;
+  border-style: inset;
+  border-width: 10px;
+  position: absolute;
+  width:80px;
+  height: 100px;
+  margin-top: 140px;
+  margin-left: 550px;
+  border-radius: 20px;
+  z-index: 0;
+  text-align: center;
+}
+
+#marq {
+  list-style-position: outside;
+  font-size: 80px;
+  width:80px;
+  height: 100px;
+  line-height: inherit;
+  border-radius: 10px;
+}
+
+.dice2 {
+  font-family: 'Luckiest Guy', fantasy;
+  border-style: outset;
+  font-size: 80px;
+  position: absolute;
+  background-color: white;
+  width:300px;
+  height: 320px;
+  margin-left: 800px;
+  margin-top: 20px;
+  margin-left: 830px;
+  border-radius: 25px;
+  padding-left: 15px;
+  z-index: 0;
+  text-align: center;
+  box-shadow: 0 10px 5px #666;
+}
+
+.result {
+  font-size: 60px;
+  font-family: 'Monofett', cursive;
+  border-style:groove;
+  background-color: #beff33;
+  border-width: 5px;
+  width:550px;
+  height: 80px;
+  /* margin: auto; */
+  margin-top: 360px;
+  border-radius: 25px;
+  z-index: 0;
+  text-align: center;
+  box-shadow: 0 9px #999;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#button {
+  font-family: 'Luckiest Guy', fantasy;
+  font-size: 20px;
+  background-color:#F08700;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+  width: 300px;
+  height: 100px;
+  box-shadow: 0 10px #666;
+   vertical-align: middle;
+   cursor: pointer;
+   outline: none;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   }
+
+   #dicedia {
+     font-size: 60px;
+   }
+
+#button:hover {background-color: yellow}
+
+#button:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+   }
